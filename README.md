@@ -29,14 +29,14 @@ To get started with the Intel 8080 Emulator, follow these simple steps:
 
 1. **Clone the Repository:**
 ```bash
-   git clone https://github.com/your-username/8080-emulator.git
-   cd 8080-emulator
-   cmake -B build
-   cd build
+git clone https://github.com/your-username/8080-emulator.git
+cd 8080-emulator
+cmake -B build
+cd build
 ```
 2. **Build the Emulator:**
 ```bash
-    make
+make
 ```
 3. **Run the Emulator**
 ```bash
