@@ -16,3 +16,7 @@ set(SOURCE_FILES src/main.cpp)
 add_executable(8080_emulator ${SOURCE_FILES})
 
 target_include_directories(${PROJECT_NAME} PRIVATE ${LIB_SOURCES})
+
+
+add_executable(Disassembler 
+"src/lib/Disassembler/disassembler.cpp")
